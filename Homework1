@@ -8,3 +8,17 @@ if (a>=b){
   a=0;
   console.log(a);
  }
+
+
+//Number2
+
+let a = 4;
+let b =3;
+if (a>=b){
+  a=a+b;
+  console.log(a);
+}
+ else{
+  a=0;
+  console.log(a);
+ }
