@@ -1,3 +1,5 @@
+//Number 1
+
 let a = 4;
 let b =3;
 if (a>=b){
@@ -12,21 +14,16 @@ if (a>=b){
 
 //Number2
 
-let num1 = 1;
-let num2 =121;
-let num3 =11;
-if (num1>=num2+num3 && num1>=0){
+let num1 =2;
+let num2 =2;
+let num3 =6;
+
+if (num1>=num2+num3 && num1>=0) 
   console.log('true');
-}
+else if(num2 = num3**2 && num3 %2 ==1 )
+  console.log('false');
+else if(num1**8 > num1+num2+num3 || num1 + num2 == 0)
+console.log('undefined');
+else 
+  console.log('null');
 
-else if(num2 = num3^2 &&  num3 %2 ==1 ){
-
-   console.log('false');
-}
-  
- 
-else if(num1^8>num1+num2+num3|| num1 + num2 == 0); {
-     console.log('undefined');
-}
- //else
- // console.log('null');
