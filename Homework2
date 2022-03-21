@@ -1,0 +1,12 @@
+let  name='Joseph';
+let age= 30;
+let hobbies =['singing','reading','basketball','football']
+
+if(age>hobbies.length)
+  console.log("true");
+
+else if(age == hobbies.lenght){
+  console.log("false");
+}
+  else
+  console.log("undefined");
