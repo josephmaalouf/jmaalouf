@@ -1,11 +1,22 @@
-let  name='Joseph';
-let age= 30;
-let hobbies =['singing','reading','basketball','football']
+let age;
+let name;
+let hobbies;
 
-if(age>hobbies.length)
+
+let user =new Object();
+user.name='Joseph';
+user.age= 30;
+user.hobbies =['singing','reading','basketball','football']
+
+user.lenght=function(){
+  return hobbies.lenght;
+}
+
+
+if(age>user.length)
   console.log("true");
 
-else if(age == hobbies.lenght){
+else if(age ==user.lenght){
   console.log("false");
 }
   else
