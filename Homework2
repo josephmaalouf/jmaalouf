@@ -1,6 +1,6 @@
 let user = {
 name:'Joseph',
-age: 4,
+age: 30,
 hobbies :['singing','reading','basketball','football'],
 };
 
