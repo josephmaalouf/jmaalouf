@@ -7,3 +7,13 @@ return total;
 console.log(sum(20,15));
 
 
+//Question 5
+const type = function(argument){
+if(Number.isInteger(argument)){
+    return'Integer';
+}
+return'Undefined';
+
+}
+
+console.log(type(12));
