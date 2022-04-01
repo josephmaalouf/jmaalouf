@@ -80,11 +80,10 @@ console.log(Isprime(7));
 
 //Question 5
 const type = function(argument){
-if(Number.isInteger(argument)){
-    return'Integer';
+    x =typeof argument;
+    return x;
 }
-return'Undefined';
-
-}
-
+console.log(type());
 console.log(type(12));
+console.log(type(true));
+console.log(type('Joseph'));
