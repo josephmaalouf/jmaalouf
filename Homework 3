@@ -6,6 +6,35 @@ return total;
 };
 console.log(sum(20,15));
 
+//Question 2
+const hourglass =function(n){
+
+for (let i = 0; i < n ; i++) {
+  
+  for (let j = 0; j < i; j++) {
+     process.stdout.write(' ');
+  }
+  
+  for (let k = 0; k < (n - i) * 2 - 1; k++) {
+    process.stdout.write('*');
+  }
+  console.log();
+}
+
+
+for (let i = 2; i <= n; i++) {
+  
+  for (let j = 1; j <= n - i; j++) {
+    process.stdout.write(' ')
+  }
+  
+  for (let k = 0; k < 2 * i - 1; k++) {
+    process.stdout.write('*')
+  }
+  console.log();
+}}
+hourglass(3);
+
 
 //Question 5
 const type = function(argument){
