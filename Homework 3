@@ -79,10 +79,8 @@ console.log(Isprime(7));
 
 
 //Question 5
-const type = function(argument){
-    x =typeof argument;
-    return x;
-}
+const type = argument=>typeof argument;
+    
 console.log(type());
 console.log(type(12));
 console.log(type(true));
