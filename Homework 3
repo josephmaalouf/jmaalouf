@@ -35,6 +35,18 @@ for (let i = 2; i <= n; i++) {
 }}
 hourglass(3);
 
+//Question 3
+
+let array=[];
+const AddElement=function(array,elem){
+  array.push(elem);
+  return array;
+
+}
+
+console.log(AddElement([10,15,20],25))
+
+
 
 
 
