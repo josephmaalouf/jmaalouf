@@ -7,3 +7,46 @@ console.log(arr.indexOf('target'));
 
 
 Question 2
+
+var matrix = [[[1, 2], [3, 4]], [ [5, 6], [7, 8]]];
+var newarray = matrix.flat(Infinity);
+console.log(newarray);
+
+Question 3
+
+var arr = ['a','b', 'c']
+let output = arr.reverse().join('');
+console.log(output);
+
+Question 4
+
+var arr = ['a','b','c'];
+var output=arr.pop();
+arr.unshift(result);
+console.log(arr);
+
+Question 5
+
+let smth1=[1, 2, 3];
+let smth2='smth';
+console.log(Array.isArray(smth1));
+
+Question 6
+
+var arr1=[1, 2, 3];
+var arr2=[4, 5, 6];
+var joinArrays = arr1.concat(arr2);
+console.log(joinArrays);
+
+Question 7
+
+let arr = ['a','b','c'];
+arr.pop();
+arr.shift();
+arr.unshift('stopPoint');
+arr.push('stopPoint');
+console.log(arr);
+
+Quesyion 8
+
+
