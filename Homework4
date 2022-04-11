@@ -47,6 +47,6 @@ arr.unshift('stopPoint');
 arr.push('stopPoint');
 console.log(arr);
 
-Quesyion 8
+Question 8
 
 
