@@ -49,4 +49,9 @@ console.log(arr);
 
 Question 8
 
+var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+var animals2 = animals.slice(3);
+var output = animals2.reverse(); 
+console.log (output);
+
 
